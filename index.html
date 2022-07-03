@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eduardo López</title>
     <style>
-        *{
-            background-color: gray;
+        body{
+            background-color: beige;
         }
         section{
             display: flex;
@@ -17,11 +17,13 @@
         section .container{
             margin-top: 20px;
             display: flex;
+            background-color: whitesmoke;
             justify-content: center;
             width: 400px;
-            height: 600px;
+            height: 500px;
             border: 1px solid black;
-            border-radius: 30px;    
+            border-radius: 30px;  
+              
         }
         .container header{
             display: flex;
@@ -36,6 +38,22 @@
         main h1,h2,h3{
             text-align: center;
         }
+        .container footer{
+            
+            width: 100%;
+            height: 50px;
+            background-color: palegreen;
+            
+        }
+        footer nav ul li{
+            
+            margin: 21px;
+            display: inline;
+        }
+        footer nav ul{
+            padding: 7px;
+        }
+        
         
         
     </style>
@@ -43,7 +61,7 @@
 <body>
     <section>
         <div class="container">
-            <div>
+            <div class="container2">
                 <header>
                     <img src="https://i.postimg.cc/L5HdK3jk/HHYU8452.jpg" alt="foto de Eduardo López" width=180/>
                 </header>
@@ -53,10 +71,43 @@
                     <h3>Futuro Fronted Developer</h3>
                 </main>
                 <footer>
+                    <nav>
+                        <ul>
+                          <li>
+                            <a href="#">
+                              <img src="https://i.postimg.cc/dtPYcvbM/youtube.png" alt="YouTube" width="32px" height="32px" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <img src="https://i.postimg.cc/5NBMxTJX/github.png" alt="GitHub" width="32px" height="32px" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <img src="https://i.postimg.cc/J7BLFtdc/linkedin.png" alt="LinkedIn" width="32px" height="32px" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <img src="https://i.postimg.cc/sfJtqS4W/instagram.png" alt="Instagram" width="32px" height="32px" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <img src="https://i.postimg.cc/7YHyZXZX/facebook.png" alt="GitHub" width="32px" height="32px" />
+                            </a>
+                          </li>
+                          
+                        </ul>
+                      </nav>
 
                 </footer>
+                
             </div>
+            
         </div>
+        
 
     </section>    
     
